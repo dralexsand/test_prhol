@@ -1,0 +1,44 @@
+.content {
+    position: absolute;
+    top: 200px;
+    /*
+    left: 50px;*/
+    background: url("apple_tree.jpg");
+    /*background-color: rgba(255, 250, 152, 0.3);*/
+    border: silver 1px solid;
+    /*width: 1200px;
+    height: 800px;
+
+    @frontend
+    */
+}
+
+.apple_form {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border: #646464 5px solid;
+}
+
+.apple_form:hover {
+    border: yellow 10px solid;
+    cursor: pointer;
+}
+
+.apple_form:active {
+    border: #226591 15px solid;
+    cursor: pointer;
+}
+
+
+.round {
+    border-radius: 50%;
+}
+
+.hidden {
+    display: none;
+}
+#status-area .flash_message {
+    padding: 5px;
+    color: green;
+}
